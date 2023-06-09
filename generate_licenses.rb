@@ -33,9 +33,9 @@ license = Gitlab::License.new
 
 # don't use gitlab inc, search `gl_team_license` in lib for details
 license.licensee = {
-  "Name"    => "Tim Cook",
-  "Company" => "Apple Computer, Inc.",
-  "Email"   => "tcook@apple.com"
+  "Name"    => "Black Man",
+  "Company" => "Automacom, Inc.",
+  "Email"   => "noname@mail.com"
 }
 
 # required of course
@@ -50,12 +50,12 @@ license.block_changes_at  = Date.new(2500, 4, 1)
 
 # required
 license.restrictions      = {
-  plan: 'ultimate',
+  plan: 'premium',
   # STARTER_PLAN = 'starter'
   # PREMIUM_PLAN = 'premium'
   # ULTIMATE_PLAN = 'ultimate'
 
-  active_user_count: 2147483647,
+  active_user_count: 1000,
   # required, just dont overflow
 }
 
